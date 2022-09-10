@@ -1,4 +1,4 @@
-<?php include 'form-to-email.php'  ?>
+
 <!DOCTYPE html>
 <!-- Created By M.Maaz Faisal -->
 <html lang="en">
@@ -236,10 +236,10 @@
                             <input name="subject" type="text" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea name="Message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" name="submit">Send message</button>
                         </div>
                     </form>
                     

@@ -25,9 +25,9 @@ $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
  
    //error checking
    if($result) {
-    $success = "The message was sent successfully!";
+    echo '<script>alert("The message was sent successfully!")</script>';
    } else {
-    $failed = "Error: Message was not sent, Try again Later";
+    echo '<script>alert("The message was not sent successfully!")</script>';
    }
 }
  

@@ -242,10 +242,7 @@
                             <button type="submit">Send message</button>
                         </div>
                     </form>
-                    <div>
-                        <p class="success"> <?php echo $success;  ?> </p>
-                        <p class="failed"> <?php echo $failed;  ?> </p>
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -220,7 +220,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://formsubmit.co/el/tezeje" method="POST" >
+                    <form action="form-to-email.php" method="POST" >
                         <div class="fields">
                             <div class="field name">
                                 <input name="name" type="text" placeholder="Name" required>

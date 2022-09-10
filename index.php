@@ -170,7 +170,7 @@
                         <p>When it comes to choosing a theme for their websites, most newcomers are overwhelmed. There are
                             thousands of themes available, both free and paid....</p>
                         <button type="button" class="btn btn-primary">
-                            <a style="color: white;" href="blogs.html#blog-2" target="_blank">Read more</a>
+                            <a style="color: white;" href="blogs.php#blog-2" target="_blank">Read more</a>
                         </button>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                         <p>Most individuals desire to improve their time management skills, and it's no secret that technology
                             can help them do so. However, it is the same technology....</p>
                         <button type="button" class="btn btn-primary">
-                            <a style="color: white;" href="blogs.html#blog-1" target="_blank">Read more</a>
+                            <a style="color: white;" href="blogs.php#blog-1" target="_blank">Read more</a>
                         </button>
                     </div>
                 </div>

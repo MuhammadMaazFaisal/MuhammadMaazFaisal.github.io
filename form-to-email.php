@@ -26,7 +26,7 @@ $mail = new PHPMailer\PHPMailer\PHPMailer();
 //Typical mail data
 $mail->AddAddress('m.maazfaisal0301@gmail.com');
 $mail->Subject = 'IMPORTANT'. ' '.$subject;
-$mail->Body = 'Hi Maaz,<br>'.'You have recieved an response on your portfolio website from <br>.'.'<b>Name: </b>'.$name.'<br><b>Email: </b>'.$email."\n".'<br><b>Message: </b>'.$message;
+$mail->Body = 'Hi Maaz,<br>'.'You have recieved an response on your portfolio website from <br>'.'<b>Name: </b>'.$name.'<br><b>Email: </b>'.$email."\n".'<br><b>Message: </b>'.$message;
 
 try{
     $mail->Send();

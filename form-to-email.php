@@ -1,5 +1,6 @@
 <?php  
 if( isset($_POST['submit']) ) {
+    echo '<script>alert("The message was sent ")</script>';
 //getting user data
 $name = $_POST['name'];
 $fromEmail = $_POST['email'];
